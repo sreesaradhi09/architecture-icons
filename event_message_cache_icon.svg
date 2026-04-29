@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Event Message Cache Icon</title>
+  <desc id="desc">Outline icon showing an event message speech bubble with envelope and notification rays next to a three-tier cache or server stack.</desc>
+  <defs>
+    <style>
+      .stroke{fill:none;stroke:#000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .textfill{fill:#fff}
+    </style>
+  </defs>
+
+  <!-- Message bubble -->
+  <path class="stroke textfill" d="
+    M165 245
+    Q165 210 200 210
+    H520
+    Q565 210 565 255
+    V485
+    Q565 530 520 530
+    H330
+    L235 615
+    V530
+    H200
+    Q165 530 165 495
+    Z" />
+
+  <!-- Notification rays -->
+  <rect class="stroke textfill" x="237" y="120" width="30" height="86" rx="15" transform="rotate(-45 252 163)"/>
+  <rect class="stroke textfill" x="352" y="92" width="30" height="102" rx="15"/>
+  <rect class="stroke textfill" x="467" y="120" width="30" height="86" rx="15" transform="rotate(45 482 163)"/>
+
+  <!-- Envelope -->
+  <rect class="stroke textfill" x="235" y="300" width="285" height="195" rx="20"/>
+  <path class="stroke" d="M245 316 L377.5 415 L510 316"/>
+
+  <!-- Left side short bars -->
+  <rect class="stroke textfill" x="160" y="640" width="205" height="38" rx="19"/>
+  <rect class="stroke textfill" x="160" y="812" width="205" height="38" rx="19"/>
+  <rect class="stroke textfill" x="160" y="985" width="205" height="38" rx="19"/>
+
+  <!-- Server stack -->
+  <rect class="stroke textfill" x="580" y="360" width="455" height="210" rx="42"/>
+  <rect class="stroke textfill" x="420" y="585" width="615" height="210" rx="36"/>
+  <rect class="stroke textfill" x="420" y="835" width="615" height="210" rx="36"/>
+
+  <!-- top subtle join from bubble to first server -->
+  <path class="stroke" d="M405 558 H560 Q585 558 600 542"/>
+
+  <!-- Indicator pills -->
+  <g>
+    <rect class="stroke textfill" x="760" y="430" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="820" y="430" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="880" y="430" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="940" y="430" width="24" height="80" rx="12"/>
+
+    <rect class="stroke textfill" x="760" y="655" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="820" y="655" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="880" y="655" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="940" y="655" width="24" height="80" rx="12"/>
+
+    <rect class="stroke textfill" x="760" y="905" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="820" y="905" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="880" y="905" width="24" height="80" rx="12"/>
+    <rect class="stroke textfill" x="940" y="905" width="24" height="80" rx="12"/>
+  </g>
+</svg>
