@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title>Static Content Hosting Icon</title>
+  <desc>Black and white flat icon showing a static web page connected to a server and a global delivery network.</desc>
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#000" flood-opacity="0.10"/>
+    </filter>
+    <linearGradient id="lightPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f8f8"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="imageBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eeeeee"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#fff"/>
+
+  <!-- Browser window -->
+  <g filter="url(#softShadow)">
+    <rect x="215" y="130" width="595" height="500" rx="27" fill="url(#lightPanel)" stroke="#0a0a0a" stroke-width="5"/>
+    <path d="M215 157 Q215 130 242 130 H783 Q810 130 810 157 V207 H215 Z" fill="#0a0a0a"/>
+    <circle cx="261" cy="170" r="12" fill="#fff"/>
+    <circle cx="299" cy="170" r="12" fill="#fff"/>
+    <circle cx="337" cy="170" r="12" fill="#fff"/>
+    <rect x="407" y="157" width="340" height="26" rx="13" fill="#fff"/>
+  </g>
+
+  <!-- Web page content -->
+  <g>
+    <!-- hero image -->
+    <rect x="265" y="242" width="226" height="195" rx="12" fill="url(#imageBg)"/>
+    <circle cx="330" cy="298" r="23" fill="#0a0a0a"/>
+    <path d="M265 437 L265 397 L323 340 Q331 332 340 340 L421 437 Z" fill="#0a0a0a"/>
+    <path d="M394 437 L480 354 Q490 344 500 356 L491 437 Z" fill="#737373"/>
+
+    <!-- text lines -->
+    <rect x="526" y="266" width="229" height="15" rx="7.5" fill="#0a0a0a"/>
+    <rect x="526" y="311" width="229" height="13" rx="6.5" fill="#cfcfcf"/>
+    <rect x="526" y="348" width="229" height="13" rx="6.5" fill="#cfcfcf"/>
+    <rect x="526" y="385" width="188" height="13" rx="6.5" fill="#cfcfcf"/>
+    <rect x="526" y="423" width="131" height="13" rx="6.5" fill="#cfcfcf"/>
+
+    <!-- content cards -->
+    <rect x="265" y="469" width="142" height="74" rx="8" fill="#e8e8e8"/>
+    <rect x="439" y="469" width="142" height="74" rx="8" fill="#e8e8e8"/>
+    <rect x="613" y="469" width="142" height="74" rx="8" fill="#e8e8e8"/>
+
+    <rect x="265" y="558" width="142" height="11" rx="5.5" fill="#c7c7c7"/>
+    <rect x="265" y="582" width="86" height="11" rx="5.5" fill="#c7c7c7"/>
+    <rect x="439" y="558" width="142" height="11" rx="5.5" fill="#c7c7c7"/>
+    <rect x="439" y="582" width="90" height="11" rx="5.5" fill="#c7c7c7"/>
+    <rect x="613" y="558" width="142" height="11" rx="5.5" fill="#c7c7c7"/>
+    <rect x="613" y="582" width="91" height="11" rx="5.5" fill="#c7c7c7"/>
+  </g>
+
+  <!-- Connector lines -->
+  <g fill="none" stroke="#0a0a0a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 18">
+    <path d="M512 630 V760"/>
+    <path d="M381 786 H513"/>
+    <path d="M512 786 H687"/>
+  </g>
+  <path d="M512 760 C512 778 497 778 497 786 C497 794 527 794 527 786 C527 778 512 778 512 760" fill="#0a0a0a"/>
+
+  <!-- Server icon -->
+  <g transform="translate(113 694)" filter="url(#softShadow)">
+    <path d="M30 42 L65 0 H263 L294 42 Z" fill="#fff" stroke="#0a0a0a" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="30" y="42" width="264" height="148" rx="8" fill="#fff" stroke="#0a0a0a" stroke-width="6"/>
+    <line x1="30" y1="116" x2="294" y2="116" stroke="#0a0a0a" stroke-width="6"/>
+    <circle cx="70" cy="79" r="14" fill="#0a0a0a"/>
+    <circle cx="70" cy="153" r="14" fill="#0a0a0a"/>
+    <circle cx="220" cy="79" r="7" fill="#0a0a0a"/>
+    <circle cx="247" cy="79" r="7" fill="#0a0a0a"/>
+    <circle cx="274" cy="79" r="7" fill="#0a0a0a"/>
+    <circle cx="220" cy="153" r="7" fill="#0a0a0a"/>
+    <circle cx="247" cy="153" r="7" fill="#0a0a0a"/>
+    <circle cx="274" cy="153" r="7" fill="#0a0a0a"/>
+    <ellipse cx="162" cy="204" rx="135" ry="10" fill="#d9d9d9" opacity="0.65"/>
+  </g>
+
+  <!-- Globe icon -->
+  <g transform="translate(696 668)" filter="url(#softShadow)">
+    <ellipse cx="136" cy="230" rx="120" ry="9" fill="#d9d9d9" opacity="0.65"/>
+    <circle cx="136" cy="118" r="103" fill="none" stroke="#0a0a0a" stroke-width="6"/>
+    <path d="M136 15 C93 54 72 85 72 118 C72 151 94 183 136 221" fill="none" stroke="#0a0a0a" stroke-width="5"/>
+    <path d="M136 15 C179 54 200 85 200 118 C200 151 178 183 136 221" fill="none" stroke="#0a0a0a" stroke-width="5"/>
+    <line x1="33" y1="118" x2="239" y2="118" stroke="#0a0a0a" stroke-width="5"/>
+    <path d="M51 65 C96 79 176 79 221 65" fill="none" stroke="#0a0a0a" stroke-width="5"/>
+    <path d="M51 171 C96 157 176 157 221 171" fill="none" stroke="#0a0a0a" stroke-width="5"/>
+    <circle cx="136" cy="15" r="17" fill="#0a0a0a"/>
+    <circle cx="239" cy="118" r="17" fill="#0a0a0a"/>
+    <circle cx="136" cy="221" r="17" fill="#0a0a0a"/>
+  </g>
+</svg>

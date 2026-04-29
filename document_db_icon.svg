@@ -1,0 +1,66 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+
+  <defs>
+    <style>
+      .stroke { stroke:#0B0B0B; stroke-width:8; stroke-linecap:round; stroke-linejoin:round; }
+      .thin { stroke:#0B0B0B; stroke-width:6; stroke-linecap:round; stroke-linejoin:round; }
+      .text { font-family: Arial, Helvetica, sans-serif; font-weight:700; font-size:52px; fill:#0B0B0B; }
+    </style>
+  </defs>
+
+  <!-- Main database cylinder -->
+  <ellipse class="stroke" cx="304" cy="250" rx="220" ry="78" fill="white"/>
+  <path class="stroke" d="M84 250 V764"/>
+  <path class="stroke" d="M524 250 V764"/>
+  <path class="stroke" d="M84 764 C84 807 182 842 304 842 C426 842 524 807 524 764" fill="white"/>
+
+  <!-- Cylinder horizontal curved bands -->
+  <path class="stroke" d="M84 377 C84 420 182 455 304 455 C426 455 524 420 524 377"/>
+  <path class="stroke" d="M84 548 C84 591 182 626 304 626 C426 626 524 591 524 548"/>
+  <path class="stroke" d="M84 674 C84 717 182 752 304 752 C426 752 524 717 524 674"/>
+
+  <!-- Inset box inside cylinder -->
+  <rect class="stroke" x="198" y="502" width="224" height="148" rx="18" fill="white"/>
+
+  <!-- Inner document icon -->
+  <path class="thin" d="M279 530 H345 L374 559 V623 H279 V530 Z" fill="white"/>
+  <path class="thin" d="M345 530 V559 H374"/>
+  <text x="300" y="579" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0B0B0B">{ }</text>
+  <path class="thin" d="M303 595 H352"/>
+  <path class="thin" d="M303 612 H352"/>
+
+  <!-- Label -->
+  <text class="text" x="170" y="710">Document DB</text>
+
+  <!-- Zoom/callout connectors -->
+  <path class="stroke" d="M422 576 L663 292 H704"/>
+  <path class="stroke" d="M422 576 H704"/>
+  <path class="stroke" d="M422 576 L663 716 H704"/>
+
+  <!-- Right zoom boxes -->
+  <rect class="stroke" x="704" y="208" width="240" height="168" rx="18" fill="white"/>
+  <rect class="stroke" x="704" y="492" width="240" height="168" rx="18" fill="white"/>
+  <rect class="stroke" x="704" y="672" width="240" height="168" rx="18" fill="white"/>
+
+  <!-- Top document -->
+  <path class="thin" d="M776 236 H850 L882 268 V344 H776 V236 Z" fill="white"/>
+  <path class="thin" d="M850 236 V268 H882"/>
+  <text x="801" y="292" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0B0B0B">{ }</text>
+  <path class="thin" d="M802 311 H852"/>
+  <path class="thin" d="M802 330 H852"/>
+
+  <!-- Middle document -->
+  <path class="thin" d="M776 520 H850 L882 552 V628 H776 V520 Z" fill="white"/>
+  <path class="thin" d="M850 520 V552 H882"/>
+  <text x="801" y="576" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0B0B0B">{ }</text>
+  <path class="thin" d="M802 595 H852"/>
+  <path class="thin" d="M802 614 H852"/>
+
+  <!-- Bottom document -->
+  <path class="thin" d="M776 700 H850 L882 732 V808 H776 V700 Z" fill="white"/>
+  <path class="thin" d="M850 700 V732 H882"/>
+  <text x="801" y="756" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0B0B0B">{ }</text>
+  <path class="thin" d="M802 775 H852"/>
+  <path class="thin" d="M802 794 H852"/>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Relational DB Icon</title>
+  <desc id="desc">Black and white relational database icon with database cylinder, internal table marker, and three connected table records.</desc>
+  <defs>
+    <style>
+      .stroke { fill: none; stroke: #000; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #000; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .text { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 52px; fill: #000; }
+      .white { fill: #fff; }
+    </style>
+  </defs>
+
+  <!-- Database cylinder -->
+  <ellipse class="stroke white" cx="360" cy="280" rx="260" ry="90"/>
+  <path class="stroke" d="M100 280 V880"/>
+  <path class="stroke" d="M620 280 V880"/>
+  <path class="stroke" d="M100 880 C100 930 216 970 360 970 C504 970 620 930 620 880"/>
+
+  <!-- Horizontal curved cylinder bands -->
+  <path class="stroke" d="M100 430 C100 480 216 520 360 520 C504 520 620 480 620 430"/>
+  <path class="stroke" d="M100 610 C100 660 216 700 360 700 C504 700 620 660 620 610"/>
+  <path class="stroke" d="M100 780 C100 830 216 870 360 870 C504 870 620 830 620 780"/>
+
+  <!-- Inset table box inside database -->
+  <rect class="stroke white" x="220" y="560" width="300" height="165" rx="18"/>
+  <g transform="translate(275 598)">
+    <!-- Table icon -->
+    <rect class="thin white" x="0" y="0" width="190" height="95" rx="2"/>
+    <line class="thin" x1="0" y1="32" x2="190" y2="32"/>
+    <line class="thin" x1="0" y1="64" x2="190" y2="64"/>
+    <line class="thin" x1="63" y1="0" x2="63" y2="95"/>
+    <line class="thin" x1="126" y1="0" x2="126" y2="95"/>
+  </g>
+
+  <!-- Label -->
+  <text class="text" x="360" y="800" text-anchor="middle">Relational DB</text>
+
+  <!-- Connector lines -->
+  <path class="stroke" d="M520 640 L790 350 L830 350"/>
+  <path class="stroke" d="M520 640 L760 610 L830 610"/>
+  <path class="stroke" d="M520 640 L785 820 L830 820"/>
+
+  <!-- Right-side table record boxes -->
+  <g>
+    <rect class="stroke white" x="830" y="255" width="270" height="150" rx="20"/>
+    <g transform="translate(875 295)">
+      <rect class="thin white" x="0" y="0" width="180" height="80" rx="2"/>
+      <line class="thin" x1="0" y1="27" x2="180" y2="27"/>
+      <line class="thin" x1="0" y1="54" x2="180" y2="54"/>
+      <line class="thin" x1="60" y1="0" x2="60" y2="80"/>
+      <line class="thin" x1="120" y1="0" x2="120" y2="80"/>
+    </g>
+  </g>
+
+  <g>
+    <rect class="stroke white" x="830" y="535" width="270" height="150" rx="20"/>
+    <g transform="translate(875 575)">
+      <rect class="thin white" x="0" y="0" width="180" height="80" rx="2"/>
+      <line class="thin" x1="0" y1="27" x2="180" y2="27"/>
+      <line class="thin" x1="0" y1="54" x2="180" y2="54"/>
+      <line class="thin" x1="60" y1="0" x2="60" y2="80"/>
+      <line class="thin" x1="120" y1="0" x2="120" y2="80"/>
+    </g>
+  </g>
+
+  <g>
+    <rect class="stroke white" x="830" y="745" width="270" height="150" rx="20"/>
+    <g transform="translate(875 785)">
+      <rect class="thin white" x="0" y="0" width="180" height="80" rx="2"/>
+      <line class="thin" x1="0" y1="27" x2="180" y2="27"/>
+      <line class="thin" x1="0" y1="54" x2="180" y2="54"/>
+      <line class="thin" x1="60" y1="0" x2="60" y2="80"/>
+      <line class="thin" x1="120" y1="0" x2="120" y2="80"/>
+    </g>
+  </g>
+</svg>

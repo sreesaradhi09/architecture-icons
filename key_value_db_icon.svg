@@ -1,0 +1,98 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Key-Value DB Icon</title>
+  <desc id="desc">A black and white flat icon showing a database cylinder with an internal key-value pair and a zoomed view of three key-value rows on the right.</desc>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .stroke { fill: none; stroke: #111; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-md { fill: none; stroke: #111; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-sm { fill: none; stroke: #111; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-white { fill: #fff; }
+      .fill-soft { fill: #f7f7f7; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-weight: 800; fill: #111; }
+      .brace { font-family: Arial, Helvetica, sans-serif; font-weight: 700; fill: #111; }
+    </style>
+  </defs>
+
+  <!-- Database cylinder -->
+  <g id="database" transform="translate(52,165)">
+    <!-- Body -->
+    <path class="stroke fill-white" d="M70 118 C70 62 502 62 502 118 L502 570 C502 632 70 632 70 570 Z"/>
+    <!-- Top ellipse -->
+    <ellipse class="stroke fill-white" cx="286" cy="118" rx="216" ry="62"/>
+    <!-- Horizontal curved database bands -->
+    <path class="stroke-sm" d="M70 266 C70 323 502 323 502 266"/>
+    <path class="stroke-sm" d="M70 402 C70 459 502 459 502 402"/>
+    <path class="stroke-sm" d="M70 538 C70 595 502 595 502 538"/>
+
+    <!-- Inset mini key-value pair -->
+    <g id="inset" transform="translate(148,330)">
+      <rect x="0" y="0" width="286" height="94" rx="18" class="stroke-md fill-white"/>
+
+      <!-- mini key icon -->
+      <g transform="translate(31,23)">
+        <circle cx="36" cy="21" r="17" class="stroke-md"/>
+        <path class="stroke-md" d="M25 33 L3 55 M13 45 L22 54 M4 55 L13 64"/>
+      </g>
+
+      <!-- mini arrow -->
+      <path class="stroke-md" d="M113 47 H162" marker-end="url(#arrowhead)"/>
+
+      <!-- mini value box -->
+      <rect x="179" y="22" width="87" height="50" rx="11" class="stroke-md fill-white"/>
+      <text x="222.5" y="58" text-anchor="middle" class="brace" font-size="37">{ }</text>
+    </g>
+
+    <!-- Label inside database -->
+    <text x="286" y="470" text-anchor="middle" class="label" font-size="48">Key-Value DB</text>
+  </g>
+
+  <!-- Zoom connector/callout lines -->
+  <g id="callout-lines">
+    <path class="stroke-sm" d="M486 532 L620 388"/>
+    <path class="stroke-sm" d="M486 532 L620 532"/>
+    <path class="stroke-sm" d="M486 532 L620 676"/>
+  </g>
+
+  <!-- Reusable key-value rows on the right -->
+  <g id="zoomed-key-value-rows">
+    <!-- Row 1 -->
+    <g transform="translate(620,328)">
+      <rect x="0" y="0" width="142" height="106" rx="18" class="stroke-md fill-white"/>
+      <g transform="translate(36,25)">
+        <circle cx="36" cy="20" r="17" class="stroke-md"/>
+        <path class="stroke-md" d="M25 33 L3 55 M13 45 L22 54 M4 55 L13 64"/>
+      </g>
+      <path class="stroke-md" d="M165 53 H231" marker-end="url(#arrowhead)"/>
+      <rect x="257" y="0" width="185" height="106" rx="18" class="stroke-md fill-white"/>
+      <text x="349.5" y="69" text-anchor="middle" class="brace" font-size="60">{ }</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(620,472)">
+      <rect x="0" y="0" width="142" height="106" rx="18" class="stroke-md fill-white"/>
+      <g transform="translate(36,25)">
+        <circle cx="36" cy="20" r="17" class="stroke-md"/>
+        <path class="stroke-md" d="M25 33 L3 55 M13 45 L22 54 M4 55 L13 64"/>
+      </g>
+      <path class="stroke-md" d="M165 53 H231" marker-end="url(#arrowhead)"/>
+      <rect x="257" y="0" width="185" height="106" rx="18" class="stroke-md fill-white"/>
+      <text x="349.5" y="69" text-anchor="middle" class="brace" font-size="60">{ }</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(620,616)">
+      <rect x="0" y="0" width="142" height="106" rx="18" class="stroke-md fill-white"/>
+      <g transform="translate(36,25)">
+        <circle cx="36" cy="20" r="17" class="stroke-md"/>
+        <path class="stroke-md" d="M25 33 L3 55 M13 45 L22 54 M4 55 L13 64"/>
+      </g>
+      <path class="stroke-md" d="M165 53 H231" marker-end="url(#arrowhead)"/>
+      <rect x="257" y="0" width="185" height="106" rx="18" class="stroke-md fill-white"/>
+      <text x="349.5" y="69" text-anchor="middle" class="brace" font-size="60">{ }</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <style>
+      .stroke{fill:#fff;stroke:#0b0b0b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+      .thick{fill:none;stroke:#0b0b0b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .line{fill:none;stroke:#0b0b0b;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:#0b0b0b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+      .dash{fill:none;stroke:#0b0b0b;stroke-width:3;stroke-dasharray:3 6;stroke-linecap:round;stroke-linejoin:round}
+      .gray{stroke:#8a8a8a;stroke-width:5;stroke-linecap:round}
+      .fillBlack{fill:#0b0b0b}
+      .fillGray{fill:#bdbdbd}
+      .txt{font-family:Arial, Helvetica, sans-serif;fill:#0b0b0b;font-weight:700}
+      .txtMed{font-family:Arial, Helvetica, sans-serif;fill:#0b0b0b;font-weight:600}
+      .small{font-family:Arial, Helvetica, sans-serif;fill:#0b0b0b;font-weight:500}
+    </style>
+  </defs>
+
+  <!-- outer browser -->
+  <rect x="85" y="55" width="1030" height="1110" rx="32" class="stroke"/>
+  <path d="M85 88 Q85 55 118 55 H1082 Q1115 55 1115 88 V140 H85 Z" fill="#0b0b0b"/>
+  <circle cx="150" cy="95" r="14" fill="#fff"/>
+  <circle cx="205" cy="95" r="14" fill="#fff"/>
+  <circle cx="260" cy="95" r="14" fill="#fff"/>
+
+  <!-- host application shell -->
+  <rect x="115" y="152" width="970" height="600" rx="18" class="stroke"/>
+  <line x1="115" y1="218" x2="1085" y2="218" class="line"/>
+  <text x="600" y="202" text-anchor="middle" font-size="40" class="txt">Host Application</text>
+
+  <!-- nav bar -->
+  <line x1="115" y1="330" x2="1085" y2="330" class="line"/>
+  <circle cx="190" cy="273" r="38" fill="#0b0b0b"/>
+  <g transform="translate(166 250) rotate(-25 24 23)">
+    <path d="M8 24 L40 24 M30 12 L47 24 L30 36 M18 16 L8 8 M18 32 L8 40" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <line x1="270" y1="273" x2="350" y2="273" class="line"/>
+  <line x1="395" y1="273" x2="480" y2="273" class="gray"/>
+  <line x1="520" y1="273" x2="590" y2="273" class="gray"/>
+  <line x1="625" y1="273" x2="710" y2="273" class="gray"/>
+  <rect x="968" y="249" width="70" height="48" rx="6" fill="#0b0b0b"/>
+
+  <!-- panels -->
+  <g id="host-panels">
+    <rect x="140" y="356" width="215" height="365" rx="12" class="dash"/>
+    <rect x="370" y="356" width="215" height="365" rx="12" class="dash"/>
+    <rect x="600" y="356" width="215" height="365" rx="12" class="dash"/>
+    <rect x="830" y="356" width="215" height="365" rx="12" class="dash"/>
+  </g>
+
+  <!-- Check-in panel -->
+  <g transform="translate(167 392)">
+    <rect x="0" y="0" width="145" height="110" rx="8" class="stroke"/>
+    <circle cx="38" cy="38" r="16" fill="#0b0b0b"/>
+    <path d="M18 82 Q38 52 58 82 Z" fill="#0b0b0b"/>
+    <g transform="translate(70 34) rotate(-25)">
+      <path d="M0 18 L48 18 M34 6 L54 18 L34 30" class="line"/>
+    </g>
+    <line x1="120" y1="25" x2="132" y2="25" class="line"/>
+    <line x1="120" y1="42" x2="132" y2="42" class="line"/>
+    <line x1="120" y1="59" x2="132" y2="59" class="line"/>
+    <text x="72" y="175" text-anchor="middle" font-size="30" class="txtMed">Check-In</text>
+    <line x1="0" y1="205" x2="155" y2="205" class="gray"/>
+    <line x1="0" y1="235" x2="96" y2="235" class="gray"/>
+    <rect x="0" y="276" width="145" height="48" rx="8" class="stroke"/>
+    <circle cx="25" cy="300" r="9" fill="#0b0b0b"/>
+    <path d="M14 319 Q25 305 36 319" fill="#0b0b0b"/>
+    <line x1="58" y1="300" x2="120" y2="300" class="line"/>
+  </g>
+
+  <!-- Book Flights panel -->
+  <g transform="translate(395 387)">
+    <path d="M20 25 Q20 10 35 10 H148 Q148 28 166 28 V94 Q148 94 148 112 H35 Q20 112 20 97 Q35 97 35 61 Q35 25 20 25 Z" class="stroke"/>
+    <line x1="138" y1="14" x2="138" y2="108" class="dash"/>
+    <g transform="translate(63 45) rotate(-15)">
+      <path d="M0 20 L70 20 M52 4 L80 20 L52 36" class="thick"/>
+    </g>
+    <text x="82" y="181" text-anchor="middle" font-size="30" class="txtMed">Book Flights</text>
+    <line x1="0" y1="212" x2="165" y2="212" class="gray"/>
+    <line x1="0" y1="242" x2="115" y2="242" class="gray"/>
+    <g transform="translate(3 282)">
+      <rect x="0" y="0" width="48" height="52" rx="7" class="stroke"/>
+      <rect x="11" y="14" width="26" height="25" class="thin"/>
+      <line x1="11" y1="23" x2="37" y2="23" class="thin"/>
+      <line x1="18" y1="8" x2="18" y2="16" class="thin"/>
+      <line x1="30" y1="8" x2="30" y2="16" class="thin"/>
+      <rect x="60" y="0" width="48" height="52" rx="7" class="stroke"/>
+      <path d="M79 36 V12 M79 36 H95 M74 16 Q68 25 76 31" class="thin"/>
+      <rect x="120" y="0" width="48" height="52" rx="7" class="stroke"/>
+      <circle cx="137" cy="26" r="3" fill="#0b0b0b"/><circle cx="145" cy="26" r="3" fill="#0b0b0b"/><circle cx="153" cy="26" r="3" fill="#0b0b0b"/>
+    </g>
+  </g>
+
+  <!-- Flight status panel -->
+  <g transform="translate(625 386)">
+    <rect x="0" y="0" width="150" height="110" rx="8" class="stroke"/>
+    <path d="M0 0 H150 V36 H0 Z" fill="#0b0b0b"/>
+    <g transform="translate(17 8) rotate(-20)">
+      <path d="M0 15 L34 15 M24 5 L40 15 L24 25" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <line x1="76" y1="18" x2="104" y2="18" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <line x1="118" y1="18" x2="140" y2="18" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <g stroke="#8a8a8a" stroke-width="4" stroke-linecap="round">
+      <line x1="18" y1="52" x2="52" y2="52"/><line x1="66" y1="52" x2="100" y2="52"/><line x1="114" y1="52" x2="138" y2="52"/>
+      <line x1="18" y1="68" x2="52" y2="68"/><line x1="66" y1="68" x2="100" y2="68"/><line x1="114" y1="68" x2="138" y2="68"/>
+      <line x1="18" y1="84" x2="52" y2="84"/><line x1="66" y1="84" x2="100" y2="84"/><line x1="114" y1="84" x2="138" y2="84"/>
+    </g>
+    <text x="75" y="187" text-anchor="middle" font-size="30" class="txtMed">Flight Status</text>
+    <line x1="0" y1="218" x2="160" y2="218" class="gray"/>
+    <line x1="0" y1="248" x2="100" y2="248" class="gray"/>
+    <g transform="translate(4 295)">
+      <path d="M15 0 C0 0 -3 17 15 38 C33 17 30 0 15 0 Z" fill="#0b0b0b"/>
+      <circle cx="15" cy="14" r="6" fill="#fff"/>
+      <line x1="34" y1="21" x2="118" y2="21" class="dash"/>
+      <g transform="translate(78 2) rotate(-20)"><path d="M0 18 L50 18 M36 5 L58 18 L36 31" class="thick"/></g>
+      <path d="M145 0 C130 0 127 17 145 38 C163 17 160 0 145 0 Z" fill="#0b0b0b"/>
+      <circle cx="145" cy="14" r="6" fill="#fff"/>
+    </g>
+  </g>
+
+  <!-- Baggage panel -->
+  <g transform="translate(854 382)">
+    <rect x="35" y="0" width="82" height="92" rx="8" fill="#0b0b0b"/>
+    <path d="M55 0 V-18 H96 V0" class="line"/>
+    <path d="M98 20 L128 36 L110 71 L80 55 Z" class="stroke"/>
+    <circle cx="104" cy="39" r="5" fill="#0b0b0b"/>
+    <rect x="20" y="96" width="130" height="33" rx="14" class="stroke"/>
+    <circle cx="45" cy="113" r="5" fill="#0b0b0b"/><circle cx="75" cy="113" r="5" fill="#0b0b0b"/><circle cx="105" cy="113" r="5" fill="#0b0b0b"/><circle cx="135" cy="113" r="5" fill="#0b0b0b"/>
+    <text x="85" y="186" text-anchor="middle" font-size="25" class="txtMed">Baggage &amp; Services</text>
+    <line x1="0" y1="217" x2="165" y2="217" class="gray"/>
+    <line x1="0" y1="247" x2="102" y2="247" class="gray"/>
+    <g transform="translate(0 287)">
+      <rect x="0" y="0" width="48" height="52" rx="7" class="stroke"/>
+      <rect x="14" y="18" width="20" height="20" class="thin"/><path d="M19 18 V10 H29 V18" class="thin"/>
+      <rect x="62" y="0" width="48" height="52" rx="7" class="stroke"/>
+      <circle cx="86" cy="18" r="9" fill="#0b0b0b"/><path d="M73 42 Q86 25 99 42" fill="#0b0b0b"/>
+      <rect x="124" y="0" width="48" height="52" rx="7" class="stroke"/>
+      <rect x="141" y="15" width="18" height="25" class="thin"/><line x1="150" y1="15" x2="150" y2="40" class="thin"/>
+    </g>
+  </g>
+
+  <!-- connectors to micro apps -->
+  <g class="line">
+    <path d="M247 752 V790"/>
+    <path d="M477 752 V790"/>
+    <path d="M707 752 V790"/>
+    <path d="M937 752 V790"/>
+  </g>
+  <circle cx="247" cy="790" r="7" fill="#0b0b0b"/>
+  <circle cx="477" cy="790" r="7" fill="#0b0b0b"/>
+  <circle cx="707" cy="790" r="7" fill="#0b0b0b"/>
+  <circle cx="937" cy="790" r="7" fill="#0b0b0b"/>
+
+  <!-- micro app card template definitions via groups -->
+  <g transform="translate(137 815)">
+    <rect x="0" y="0" width="205" height="280" rx="14" class="stroke"/>
+    <path d="M0 0 H205 V42 H0 Z" fill="#0b0b0b"/>
+    <circle cx="24" cy="20" r="6" fill="#fff"/><circle cx="45" cy="20" r="6" fill="#fff"/><circle cx="66" cy="20" r="6" fill="#fff"/>
+    <rect x="25" y="63" width="155" height="88" rx="6" class="stroke"/>
+    <circle cx="58" cy="94" r="14" fill="#0b0b0b"/><path d="M41 132 Q58 107 75 132 Z" fill="#0b0b0b"/>
+    <g transform="translate(94 91) rotate(-25)"><path d="M0 14 L42 14 M30 3 L48 14 L30 25" class="line"/></g>
+    <line x1="153" y1="78" x2="164" y2="78" class="line"/><line x1="153" y1="92" x2="164" y2="92" class="line"/><line x1="153" y1="106" x2="164" y2="106" class="line"/>
+    <line x1="28" y1="178" x2="165" y2="178" class="gray"/><line x1="28" y1="207" x2="125" y2="207" class="gray"/>
+    <rect x="25" y="232" width="155" height="38" rx="7" class="stroke"/>
+    <circle cx="50" cy="251" r="8" fill="#0b0b0b"/><path d="M39 265 Q50 252 61 265" fill="#0b0b0b"/>
+    <line x1="77" y1="251" x2="135" y2="251" class="line"/>
+    <circle cx="161" cy="251" r="14" fill="#0b0b0b"/><path d="M154 250 L160 257 L171 243" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <text x="102" y="325" text-anchor="middle" font-size="30" class="txtMed">Micro App 1</text>
+  </g>
+
+  <g transform="translate(375 815)">
+    <rect x="0" y="0" width="205" height="280" rx="14" class="stroke"/>
+    <path d="M0 0 H205 V42 H0 Z" fill="#0b0b0b"/>
+    <circle cx="24" cy="20" r="6" fill="#fff"/><circle cx="45" cy="20" r="6" fill="#fff"/><circle cx="66" cy="20" r="6" fill="#fff"/>
+    <path d="M25 75 Q25 61 39 61 H170 Q170 79 188 79 V139 Q170 139 170 157 H39 Q25 157 25 143 Q39 143 39 109 Q39 75 25 75 Z" class="stroke"/>
+    <line x1="159" y1="65" x2="159" y2="153" class="dash"/>
+    <g transform="translate(70 100) rotate(-15)"><path d="M0 18 L70 18 M52 5 L80 18 L52 31" class="thick"/></g>
+    <line x1="30" y1="188" x2="160" y2="188" class="gray"/><line x1="30" y1="215" x2="110" y2="215" class="gray"/>
+    <rect x="28" y="236" width="50" height="35" rx="6" class="stroke"/>
+    <rect x="41" y="248" width="24" height="15" class="thin"/><line x1="41" y1="254" x2="65" y2="254" class="thin"/>
+    <rect x="92" y="236" width="86" height="35" rx="6" class="stroke"/>
+    <path d="M112 260 V244 M112 260 H127 M107 248 Q101 255 110 260" class="thin"/>
+    <text x="141" y="260" font-size="16" class="small">12A</text>
+    <text x="102" y="325" text-anchor="middle" font-size="30" class="txtMed">Micro App 2</text>
+  </g>
+
+  <g transform="translate(613 815)">
+    <rect x="0" y="0" width="205" height="280" rx="14" class="stroke"/>
+    <path d="M0 0 H205 V42 H0 Z" fill="#0b0b0b"/>
+    <circle cx="24" cy="20" r="6" fill="#fff"/><circle cx="45" cy="20" r="6" fill="#fff"/><circle cx="66" cy="20" r="6" fill="#fff"/>
+    <g transform="translate(55 75) rotate(-18)"><path d="M0 18 L65 18 M48 4 L74 18 L48 32" class="thick"/></g>
+    <line x1="35" y1="125" x2="170" y2="125" class="line"/>
+    <g font-size="16" class="small">
+      <text x="35" y="155">09:15</text><text x="92" y="155">On Time</text><circle cx="175" cy="149" r="8" class="fillGray"/>
+      <text x="35" y="195">11:40</text><text x="92" y="195">Delayed</text><circle cx="175" cy="189" r="8" class="fillBlack"/>
+      <text x="35" y="235">14:05</text><text x="92" y="235">On Time</text><circle cx="175" cy="229" r="8" class="fillGray"/>
+    </g>
+    <line x1="35" y1="168" x2="175" y2="168" class="thin"/><line x1="35" y1="207" x2="175" y2="207" class="thin"/>
+    <text x="102" y="325" text-anchor="middle" font-size="30" class="txtMed">Micro App 3</text>
+  </g>
+
+  <g transform="translate(851 815)">
+    <rect x="0" y="0" width="205" height="280" rx="14" class="stroke"/>
+    <path d="M0 0 H205 V42 H0 Z" fill="#0b0b0b"/>
+    <circle cx="24" cy="20" r="6" fill="#fff"/><circle cx="45" cy="20" r="6" fill="#fff"/><circle cx="66" cy="20" r="6" fill="#fff"/>
+    <rect x="62" y="70" width="82" height="80" rx="8" fill="#0b0b0b"/>
+    <path d="M82 70 V50 H124 V70" class="line"/>
+    <path d="M121 88 L155 105 L137 142 L103 125 Z" class="stroke"/>
+    <line x1="35" y1="180" x2="170" y2="180" class="gray"/><line x1="35" y1="210" x2="140" y2="210" class="gray"/>
+    <g transform="translate(25 232)">
+      <rect x="0" y="0" width="45" height="40" rx="6" class="stroke"/><rect x="13" y="15" width="18" height="17" class="thin"/><path d="M17 15 V8 H27 V15" class="thin"/>
+      <rect x="57" y="0" width="45" height="40" rx="6" class="stroke"/><rect x="68" y="15" width="22" height="15" class="thin"/><line x1="68" y1="28" x2="90" y2="28" class="thin"/>
+      <rect x="114" y="0" width="45" height="40" rx="6" class="stroke"/><text x="124" y="25" font-size="12" class="small">B12</text>
+    </g>
+    <text x="102" y="325" text-anchor="middle" font-size="30" class="txtMed">Micro App 4</text>
+  </g>
+</svg>
